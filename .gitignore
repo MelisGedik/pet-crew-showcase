@@ -1,0 +1,22 @@
+# Documentation-only showcase: ignore everything unless explicitly allowed.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/docs/
+!/docs/**/
+!/docs/**/*.md
+!/docs/images/*.png
+
+# Additional guards if documentation is added later.
+**/key.properties
+**/local.properties
+**/.env*
+**/*.jks
+**/*.keystore
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.db
+**/*.sqlite*
+**/*.petcrew.json
